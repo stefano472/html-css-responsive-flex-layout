@@ -25,6 +25,7 @@ h3 {
 p {
     padding-bottom: 1.5rem;
     line-height: 1.5rem;
+    color: lightslategray;
 }
 .text-center {
     text-align: center;
@@ -90,9 +91,6 @@ a {
 
 /************************* main *************************/
 /* Application */
-#Application p {
-    color: lightslategray;
-}
 .bg-lightblue h2 {
     color: #0084fd;
 }
@@ -133,9 +131,6 @@ a {
 #Planning .bg-white h2 {
     color: #555555;
 }
-#Planning .bg-white p {
-    color: lightslategray;
-}
 
 /* Partners */
 #Partners h3 {
@@ -143,4 +138,18 @@ a {
 }
 #Partners h2 {
     color: #9692e6;
+}
+
+/* benefits */
+#Benefits h2 {
+    padding-top: 1.5rem;
+    color: white;
+}
+#Benefits h3 {
+    color: #9593e7;
+}
+.number {
+    font-size: 1.5rem;
+    color: #9593e7;
+    padding-bottom: 1.5rem;
 }

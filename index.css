@@ -166,3 +166,24 @@ a {
     font-size: 1.5rem;
     color: #9593e7;
 }
+
+/* GetStarted */
+#GetStarted h3 {
+    text-transform: uppercase;
+    color: lightslategray;
+}
+#GetStarted h2,
+#GetStarted p {
+    color: white;
+}
+#GetStarted h1 {
+    font-size: 3rem;
+    color: #fac06b;
+}
+#GetStarted .btn {
+    color: #9593e7;
+}
+#GetStarted p:last-child {
+    padding-bottom: 0;
+}
+

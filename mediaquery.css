@@ -1,0 +1,71 @@
+@media screen and (min-width:840px) {
+    .layout {
+        width: 85%;
+    }
+    /* Application */
+    #Application {
+        padding: 0 7.5vw 0;
+    }
+    #Application .media840 {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 1vw
+    }
+    #Application .bg-lightblue {
+        width: calc(100% / 3 * 2 - 0.5vw);
+    }
+    #Application .bg-green,
+    #Application .bg-red,
+    #Application .bg-yellow,
+    #Application .bg-lightpurple {
+        width: calc(100% / 3 - 2vw / 3);
+    }
+
+    /* Partners */
+    #Partners .media840 {
+        display: flex;
+        align-items: center;
+    }
+    #Partners .media840 .img{
+        margin: 0 1.5rem 1.5rem 0;
+    }
+
+    /* Benefits */
+    #Benefits {
+        padding-left: 7.5vw;
+        padding-right: 7.5vw;
+    }
+    #Benefits .media840 {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+    }
+    #Benefits .media840 > * {
+        flex-basis: calc(50% - 1rem);
+    }
+
+    /* AboutUs */
+    #AboutUs .media840 {
+        display: flex;
+        justify-content: center;
+        column-gap: 2rem;
+    }
+    #AboutUs .container {
+        margin: 0;
+    }
+    #AboutUs .media840 .img {
+        margin: auto;
+        min-width: 236px;
+    }
+    #AboutUs .btn {
+        padding: 0.8rem 0.8rem;
+    }
+    #GetStarted .layout,
+    footer .layout {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:1020px) {
+    
+}

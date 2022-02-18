@@ -8,7 +8,7 @@
 /************************* utilities *************************/
 .layout {
     width: 75%;
-    margin: auto;
+    margin: 0 auto;
 }
 .margin-section {
     margin-bottom: 1.5rem;
@@ -142,10 +142,18 @@ a {
 
 /* Partners */
 #Partners h3 {
+    padding-top: 1rem;
     text-transform: uppercase;
 }
 #Partners h2 {
     color: #9692e6;
+}
+#Partners .container p {
+    padding-bottom: 0;
+}
+#Partners .img {
+    max-width: 236px;
+    margin: 0 auto;
 }
 
 /* benefits */
@@ -165,6 +173,12 @@ a {
 #AboutUs h3 {
     font-size: 1.5rem;
     color: #9593e7;
+}
+#AboutUs .img {
+    max-width: 236px;
+}
+#AboutUs .btn {
+    border-radius: 8px;
 }
 
 /* GetStarted */

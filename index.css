@@ -4,3 +4,22 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* utilities */
+.layout {
+    width: 75%;
+    margin: auto;
+}
+
+/* header */
+header {
+    background-color: #0084fd;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}

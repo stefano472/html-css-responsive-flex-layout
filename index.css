@@ -11,13 +11,20 @@
     margin: auto;
 }
 .margin-section {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 .padding-section {
     padding: 1.5rem 0 1rem;
 }
 h2 {
-    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+h3 {
+    padding-bottom: 1.5rem;
+}
+p {
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
 }
 .text-center {
     text-align: center;
@@ -78,14 +85,13 @@ a {
     color: white;
     font-size: 1.8rem;
     padding: 1rem 0;
+    margin-bottom: 3rem;
 }
 
 /************************* main *************************/
 /* Application */
 #Application p {
     color: lightslategray;
-    padding-bottom: 1.5rem;
-    line-height: 1.5rem;
 }
 .bg-lightblue h2 {
     color: #0084fd;
@@ -123,12 +129,18 @@ a {
 }
 #Planning p {
     color: white;
-    padding-bottom: 1.5rem;
-    line-height: 1.5rem;
 }
 #Planning .bg-white h2 {
     color: #555555;
 }
 #Planning .bg-white p {
     color: lightslategray;
+}
+
+/* Partners */
+#Partners h3 {
+    text-transform: uppercase;
+}
+#Partners h2 {
+    color: #9692e6;
 }

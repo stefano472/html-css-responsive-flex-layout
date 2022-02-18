@@ -14,7 +14,12 @@
     margin-bottom: 1.5rem;
 }
 .padding-section {
-    padding: 1.5rem 0 1rem;
+    padding: 3rem 0 1rem;
+}
+h1 {
+    font-size: 2rem;
+    color: #9593e7;
+    padding-bottom: 1.5rem;
 }
 h2 {
     padding-bottom: 1.5rem;
@@ -47,6 +52,9 @@ a {
     height: 236px;
     background-color: white;
     border-radius: 20px;
+}
+.container {
+    margin: 0 auto 2rem;
 }
 .round-container {
     border-radius: 20px;
@@ -125,7 +133,7 @@ a {
 #Planning h2 {
     color: white;
 }
-#Planning p {
+#Planning .container p {
     color: white;
 }
 #Planning .bg-white h2 {
@@ -142,7 +150,6 @@ a {
 
 /* benefits */
 #Benefits h2 {
-    padding-top: 1.5rem;
     color: white;
 }
 #Benefits h3 {
@@ -152,4 +159,10 @@ a {
     font-size: 1.5rem;
     color: #9593e7;
     padding-bottom: 1.5rem;
+}
+
+/* AboutUs */
+#AboutUs h3 {
+    font-size: 1.5rem;
+    color: #9593e7;
 }

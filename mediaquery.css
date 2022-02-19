@@ -1,18 +1,24 @@
-@media screen and (min-width:840px) {
+/************************* media 740px *************************/
+@media screen and (min-width:740px) {
     .layout {
         width: 85%;
     }
     /* Application */
-    #Application {
-        padding: 0 7.5vw 0;
-    }
-    #Application .media840 {
+    #Application .media740 {
         display: flex;
         flex-wrap: wrap;
         column-gap: 1vw
     }
     #Application .bg-lightblue {
         width: calc(100% / 3 * 2 - 0.5vw);
+        display: flex;
+        flex-direction: column;
+    }
+    #Application .bg-lightblue a {
+        align-self: flex-start;
+    }
+    #Application .bg-lightblue .img {
+        flex-grow: 1;
     }
     #Application .bg-green,
     #Application .bg-red,
@@ -22,50 +28,111 @@
     }
 
     /* Partners */
-    #Partners .media840 {
+    #Partners .media740 {
         display: flex;
         align-items: center;
     }
-    #Partners .media840 .img{
+    #Partners .media740 .img{
         margin: 0 1.5rem 1.5rem 0;
     }
 
     /* Benefits */
-    #Benefits {
-        padding-left: 7.5vw;
-        padding-right: 7.5vw;
-    }
-    #Benefits .media840 {
+    #Benefits .media740 {
         display: flex;
         flex-wrap: wrap;
         column-gap: 2rem;
     }
-    #Benefits .media840 > * {
+    #Benefits .media740 > * {
         flex-basis: calc(50% - 1rem);
     }
 
     /* AboutUs */
-    #AboutUs .media840 {
+    #AboutUs .media740 {
         display: flex;
         justify-content: center;
         column-gap: 2rem;
     }
-    #AboutUs .container {
-        margin: 0;
-    }
-    #AboutUs .media840 .img {
-        margin: auto;
+    #AboutUs .review {
         min-width: 236px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #AboutUs .review h3 {
+        text-align: center;
     }
     #AboutUs .btn {
         padding: 0.8rem 0.8rem;
     }
+
+    /* GetStarted & footer */
     #GetStarted .layout,
     footer .layout {
-        width: 75%;
+        max-width: 740px;
     }
 }
 
+/************************* media 1020px *************************/
 @media screen and (min-width:1020px) {
-    
+    /* header */
+    .flex-header i {
+        display: none;
+    }
+    header nav {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        column-gap: 1vw;
+    }
+    header nav a {
+        text-decoration: none;
+    }
+    header nav a:hover {
+        text-decoration: underline;
+    }
+    header nav .btn {
+        margin-bottom: 0;
+        color: lightslategray;
+        padding: 0.8rem 1.5rem;
+        transition: 0.5s;
+    }
+    header nav .btn:hover {
+        transform: scale(1.1);
+        color: #0084fd;
+        text-decoration: underline;
+    }
+
+    /* Application */
+    #Application .bg-lightblue {
+        flex-direction: row;
+        column-gap: 1vw;
+    }
+    #Application .bg-lightblue .img {
+        align-self: flex-end;
+    }
+
+    /* Planning */
+    #Planning .media1020 {
+        display: flex;
+        column-gap: 2vw;
+    }
+    #Planning .media1020 > * {
+        width: 50%;
+    }
+    #Planning .media1020 .container .img {
+        height: 400px;
+    }
+    #Planning .media1020 .round-container {
+        align-self: flex-end;
+    }
+
+    /* Benefits */
+    #Benefits .media740 {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+    }
+    #Benefits .media740 > * {
+        flex-basis: calc(100% / 3 - 4rem / 3);
+    }
 }

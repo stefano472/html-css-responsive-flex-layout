@@ -8,6 +8,7 @@
 /************************* utilities *************************/
 .layout {
     width: 75%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .margin-section {
@@ -96,6 +97,9 @@ a {
     padding: 1rem 0;
     margin-bottom: 3rem;
 }
+header nav {
+    display: none;
+}
 
 /************************* main *************************/
 /* Application */
@@ -136,6 +140,9 @@ a {
 #Planning .container p {
     color: white;
 }
+#Planning .container p:last-child {
+    padding-bottom: 0;
+}
 #Planning .bg-white h2 {
     color: #555555;
 }
@@ -174,11 +181,15 @@ a {
     font-size: 1.5rem;
     color: #9593e7;
 }
+#AboutUs p:last-child {
+    padding-bottom: 0;
+}
 #AboutUs .img {
     max-width: 236px;
 }
 #AboutUs .btn {
     border-radius: 8px;
+    margin-bottom: 0;
 }
 
 /* GetStarted */
